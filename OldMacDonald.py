@@ -1,5 +1,8 @@
 def main():
-    file_name = input("Enter the name of the file listing the animals on Old McDonald's farm: ")
+    # file_name = input("Enter the name of the file listing the animals on Old McDonald's farm: ")
+
+    file_name = "OldMacDonaldPython.csv"
+    
     file_object = open(file_name)
     line = file_object.readline()
     while line != "":
@@ -40,4 +43,5 @@ def sound_lines(sound):
     
      
 main()
+
 
